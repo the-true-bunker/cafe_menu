@@ -1,0 +1,142 @@
+html {
+  background-size: cover;
+}
+body{
+  /* background-image: linear-gradient( 110.1deg,  rgb(14, 1, 39) 44.2%,black, rgb(4, 4, 6) 138.2% ); */
+  background-color: #3596ca;
+
+}
+.header {
+  background-color: #022C43;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  min-width: 100vw;
+}
+.header h2 {
+  font-family:Arial, Helvetica, sans-serif;}
+
+.header img {
+  height: 30px;
+  margin-right: 8px;
+}
+/* main */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  height: 100%;
+  /* background-image: linear-gradient( 110.1deg,  rgb(14, 1, 39) 44.2%,black,rgb(53, 53, 53), rgb(60, 60, 61) 138.2% ); */
+}
+.container1{
+  display: inline;
+  
+}
+.container2{
+  transform: translate(10px, -106px);
+  display: inline;
+}
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border-radius:50%;
+  padding: 10px;
+}
+
+.card .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  -ms-transform: translate(-50%, -50%);
+  opacity: 61%;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+/* other file style */
+.list {
+  display: inline;
+}
+.list li {
+  color: white;
+  background-color: #115173;
+  margin: 3px;
+  padding: 5px;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  background-color: rgb(58, 57, 57);
+  border: 2px solid yellow;
+}
+.rate {
+  position: relative;
+  float: right;
+  /* margin:3px 3px ; */
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#022C43;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+.footer img {
+  height: 30px;
+  width: 30px;
+}
+.whatsapp {
+  margin: 0px 30px;
+
+  float: left;
+}
+.call {
+  margin: 0px 30px;
+}
+.insta {
+  margin: 0px 30px;
+
+  float: right;
+}
+@media only screen and (min-width: 450px) and (min-height: 900px) {
+  .container {
+    height: 150%;
+  }
+  .card {
+    width: 90%;
+    height: 80%;
+  }
+  #manch-pro {
+    right: 23%;
+    top: 30%;
+  }
+  .list {
+    height: 100%;
+  }
+  .card a  img{
+  width: 92px;
+  height: 92px;
+  transform: translate(17px, 2px);
+  }
+}
